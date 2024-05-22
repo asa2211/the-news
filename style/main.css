@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    background: #fff;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-link {
+    padding: 0 7px;
+    color: #3A3838;
+    font-size: 18px;
+    line-height: 21, 09px;
+    font-weight: 700;
+    transition: 2s;
+}
+
+.nav-link:hover {
+    color: #EF4423;
+}
+
+.logo {
+    background: url("../image/logo.png");
+    width: 150px;
+    height: 71px;
+}
+
+.header-content {
+    background: url("../image/header-content.jpg") no-repeat center/cover;
+    height: 272px;
+}
+
+.container2 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.sections{
+    display: flex;
+    justify-content: center;
+}
+.content {
+    display: flex;
+    padding-top: 36px;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-photo1 {
+    background: url("../image/photo1.jpg") no-repeat;
+    height: 175px;
+    width: 350;
+}
+
+.project-photo2 {
+    background: url("../image/photo2.jpg") no-repeat;
+    height: 175px;
+    width: 350;
+}
+
+.project-photo3 {
+    background: url("../image/photo3.jpg") no-repeat;
+    height: 175px;
+    width: 350;
+}
+
+.project-photo4 {
+    background: url("../image/photo4.jpg") no-repeat;
+    height: 175px;
+    width: 350;
+}
+
+.projects1 {
+    padding: 15px 8px;
+    background: #B71C1C;
+    height: 205px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects2 {
+    padding: 15px 8px;
+    background: #6A1B9A;
+    height: 205px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects3 {
+    padding: 15px 8px;
+    background: #303F9F;
+    height: 205px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects4 {
+    padding: 15px 8px;
+    background: #00695C;
+    height: 205px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-title1 {
+    color: #fff;
+    font-size: 19px;
+    line-height: 22.27px;
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+.project-title2 {
+    color: #fff;
+    font-size: 19px;
+    line-height: 22.27px;
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+.project-title3 {
+    color: #fff;
+    font-size: 19px;
+    line-height: 22.27px;
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+.project-title4 {
+    color: #fff;
+    font-size: 19px;
+    line-height: 22.27px;
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+.text1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.text2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.text3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.text4 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.container3 {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.about {
+    background: #EDEDED;
+}
+
+.section-title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #3A3838;
+    text-align: center;
+    background: #fff;
+}
+
+.about-content {
+    padding: 0 130px;
+    display: flex;
+}
+
+.about-desc {
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 540px;
+    height: 531px;
+}
+.about-img{
+    width: 660px;
+    height: 561px;
+}
+.about-title {
+    font-size: 22px;
+    padding-bottom: 30px;
+    line-height: 25.78px;
+    text-align: left;
+    color: #3A3838;
+}
+
+.about-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+    padding-right: -10px;
+    color: #686868;
+}
+footer {
+    margin: 50px;
+    background: #3A3838;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-link {
+    padding: 0 7px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 21, 09px;
+    font-weight: 700;
+    transition: 2s;
+}
+
+.footer-link:hover {
+    color: #EF4423;
+}
+.footer-logo{
+    background: url("../image/footer-logo.png");
+    width: 150px;
+    height: 71px;
+}
